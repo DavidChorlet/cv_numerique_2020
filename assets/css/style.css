@@ -1,0 +1,184 @@
+                /*Corps de page*/
+                body{
+                color: #ffffff;
+                background-color: #000000;
+                font-family: Roboto, Open Sans, Lato, Oswald, Source Sans Pro, Montserrat, Arial, Helvetica, sans-serif;
+              }
+              /** Dark CSS */
+              /*Haut de page, pied de page*/
+              footer{
+              font-size: 24px;
+              text-align: center;
+              padding-bottom: 10px;
+              }
+              /* CONTENU DE LA PAGE */
+              h2{
+              text-align: center;
+              font-weight: bold;
+              line-height: 60px;
+              border-bottom: 5px solid #203E72;
+              margin-top: 10px;
+              border-radius: 20px / 10px;
+              }
+              h3{
+              font-size: 20px;
+              font-weight: bold;
+              }
+              p{
+              margin-left: 20px;
+              line-height: 50px;
+              font-size: 18px;
+              text-align: justify;
+              }
+              a{
+              outline-style: none;
+              text-decoration: none;
+              }
+              a:hover{
+              opacity: 0.5;
+              }
+              #links > a{
+              margin-left: 4px;
+              margin-right: 4px;
+              }
+              .container-fluid{
+               padding-bottom: 15px;
+               padding-right: 15px;
+               padding-left: 15px;
+               margin-right: auto;
+               margin-left: auto;
+              }
+              #scrollUp
+              {
+              color: #113E93;
+              position: fixed;
+              bottom : 10px;
+              right: -150px;
+              opacity: 1;
+              }
+              #presentation{
+              font-size: 35px;
+              text-align: center;
+              border: 5px solid #3A96F2;
+              margin-top: 20px;
+              padding-left: 15px;
+              padding-right: 15px;
+              border-radius: 20px / 10px;
+              }
+              /*  Bloc qui contient les bloc du côté de gauche */
+              #left_blocs{
+              padding-left: 0;
+              padding-right: 0;
+              text-align: justify;
+             }
+            
+             #underlined{
+               text-decoration: underline;
+             } 
+             /* Liste des expériences */
+            #experience_list{
+              line-height: 50px;
+            }
+            .experience_element{
+              margin-bottom: 20px;
+            }
+            .experience_date, .tools_used_title{
+              font-weight: bold;
+              color: #217272;
+            }
+            /* Liste des formations */
+            #formation_list{
+              line-height: 50px;
+            }
+            #e2n{
+              color: #1DA1F2;
+            }
+            .formation_description{
+              list-style: square;
+            }
+            .formation_title{
+              font-weight: 600;
+              font-size: 18px;
+              color : #708A8C;
+            }
+            /* Bloc formation, hobbies et skills */
+            #block_formation, #block_hobbies, #block_skills, #block_description, #block_experience{
+              border: 5px solid #3A96F2;
+              margin-top: 20px;
+              padding-left: 15px;
+              padding-right: 15px;
+              border-radius: 20px / 10px;
+            }
+           /* Liste des compétences */
+            .skills_list{
+              font-weight: bold;
+              
+            }
+            .skills_list .technology{
+              margin-top: 6px;
+              margin-bottom: 6px;
+              border-bottom: 1px solid white;
+            }
+            /* Icones des li */
+            #html_logo{
+              list-style-image: url("assets/pictures/html5_logo.png");
+            }
+
+            #css_logo{
+              list-style-image: url("assets/pictures/css3_logo.png");
+            }
+
+            #bootstrap_logo{
+              list-style-image: url("assets/pictures/bootstrap_logo.png");
+            }
+
+            #js_logo{
+              list-style-image: url("assets/pictures/js_logo.png");
+            }
+
+            #jquery_logo{
+              list-style-image: url("assets/pictures/jquery_logo.png");
+            }
+
+            #angularjs_logo{
+              list-style-image: url("assets/pictures/angularjs_logo.png");
+            }
+
+            #php_logo{
+              list-style-image: url("assets/pictures/php_logo.png");
+            }
+
+            #sql_logo{
+              list-style-image: url("assets/pictures/sql_logo.png");
+            }
+
+            #symfony_logo{
+              list-style-image: url("assets/pictures/symfony_logo.png");
+            }
+
+            #linux_logo{
+              list-style-image: url("assets/pictures/linux_logo.png");
+            }
+
+            #windows_logo{
+              list-style-image: url("assets/pictures/windows_logo.png");
+            }
+            #atom_logo{
+              list-style-image: url("assets/pictures/atom_logo.png");
+            }
+
+            #netbeans_logo{
+              list-style-image: url("assets/pictures/netbeans_logo.png");
+            }
+
+            #git_logo{
+              list-style-image: url("assets/pictures/git_logo.png");
+            }
+
+            #github_logo{
+              list-style-image: url("assets/pictures/github_small_logo.png");
+            }
+
+            #lamp_logo{
+              list-style-image: url("assets/pictures/lamp_logo.png");
+            }
